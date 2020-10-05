@@ -1,0 +1,96 @@
+* {
+  background-color: #d6e1e6;
+  font-family: Lequire_Rounded;
+  font-size: 1rem;
+}
+body {
+  overflow: hidden;
+}
+.navbar-brand {
+  font-family: YAHIKO;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+.nav-link::after {
+  content: "";
+  width: 0px;
+  height: 1.5px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.social li {
+  position: relative;
+  display: block;
+  margin-bottom: 7px;
+  background-color: transparent;
+}
+.social {
+  position: absolute;
+  top: 75%;
+  margin-left: -60px;
+}
+.circle {
+  left: 35%;
+  top: 24%;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: #c33130;
+  box-shadow: 2px 2px 5px #bd302f, -2px -2px 5px #c93231;
+  mix-blend-mode: color-burn;
+  opacity: 0.6;
+  z-index: 5;
+}
+#typography {
+  text-align: center;
+  top: 37%;
+  left: 8%;
+  position: absolute;
+  font-size: 3.5rem;
+  z-index: 10;
+  mix-blend-mode: darken;
+  background-color: transparent;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cartoon {
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  width: 300px;
+  height: 300px;
+  background-image: url("/images/before_circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 600px) {
+  .social {
+    top: 90%;
+  }
+
+  .social li {
+    display: inline;
+  }
+  .circle {
+    height: 300px;
+    width: 300px;
+  }
+  #typography {
+    font-size: 1rem;
+  }
+  .cartoon {
+    top: 70%;
+    height: 100px;
+    width: 100px;
+  }
+}
