@@ -2,9 +2,10 @@
   background-color: #d6e1e6;
   font-family: Lequire_Rounded;
   font-size: 1rem;
+  overflow: hidden;
 }
 body {
-  overflow: hidden;
+  background-color: #d6e1e6;
 }
 .navbar-brand {
   font-family: YAHIKO;
