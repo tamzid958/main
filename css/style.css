@@ -73,6 +73,7 @@ body {
   width: 300px;
   height: 300px;
   z-index: 7;
+  background-color: transparent;
   background-image: url("/images/before_circle.svg");
   background-repeat: no-repeat;
   background-position: center;
