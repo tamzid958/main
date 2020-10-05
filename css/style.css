@@ -51,7 +51,6 @@ body {
   border-radius: 50%;
   background-color: #c33130;
   box-shadow: 2px 2px 5px #bd302f, -2px -2px 5px #c93231;
-  mix-blend-mode: color-burn;
   z-index: 5;
 }
 #typography {
