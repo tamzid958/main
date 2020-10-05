@@ -31,11 +31,16 @@ body {
   display: block;
   margin-bottom: 7px;
   background-color: transparent;
+  cursor: pointer;
 }
 .social {
   position: absolute;
   top: 75%;
   margin-left: -60px;
+}
+.social a {
+  text-decoration: none;
+  color: black;
 }
 .circle {
   left: 35%;
@@ -47,7 +52,6 @@ body {
   background-color: #c33130;
   box-shadow: 2px 2px 5px #bd302f, -2px -2px 5px #c93231;
   mix-blend-mode: color-burn;
-  opacity: 0.6;
   z-index: 5;
 }
 #typography {
