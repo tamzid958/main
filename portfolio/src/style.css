@@ -105,6 +105,11 @@ a:active {
   color: red;
 }
 
+.font-bold{
+  font-weight: bold;
+  color:greenyellow;
+}
+
 @media (max-width: 600px) {
   .head-port {
     margin-left: 5%;
