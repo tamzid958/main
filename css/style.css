@@ -12,7 +12,7 @@ body {
   background-color: #d6e1e6;
   color: black;
   font-family: Lequire_Rounded;
-  font-size: 1rem;
+  font-size: 1em;
   overflow: hidden;
 }
 
@@ -24,7 +24,7 @@ a, a:hover, a:active{
 .navbar-brand {
   font-family: YAHIKO;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: calc(12px + 1.2vw);
 }
 
 .nav-link::after {
